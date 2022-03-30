@@ -30,3 +30,8 @@ overflow: auto;
         display: block; 
     }
 }
+
+img {
+    height: 500px;
+    width: auto;
+}
