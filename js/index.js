@@ -1,14 +1,1 @@
-"use strict";
-
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
+"use strict";var video=document.getElementById("myVideo"),btn=document.getElementById("myBtn");function myFunction(){video.paused?(video.play(),btn.innerHTML="Pause"):(video.pause(),btn.innerHTML="Play")}
