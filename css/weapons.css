@@ -13,7 +13,7 @@
   }
   
   @media only screen and (max-width: 1850px) {
-    img {
+    .banner {
       display: none;
     }
   }
