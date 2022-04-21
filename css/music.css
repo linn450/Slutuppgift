@@ -72,11 +72,22 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  background-color: #A13333;
+  background-color: #ccba93;
 }
 
-td, th {
+td {
   border: 2px solid black;
   text-align: center;
   padding: 8px;
+  color: black;
 }
+
+th {
+  background-color: #2D4263;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #ECDBBA;}
+

@@ -2,7 +2,7 @@
   body {
     background-color: #191919;
     color: white;
-    font-family:'Cinzel', serif; ;
+    font-family:'Cinzel', serif; 
   }
   
   h1 {
@@ -12,12 +12,11 @@
    text-align: center;
   }
   
-  @media screen and (max-width: 1850px) {
-    .banner{
-     display: none;
+  @media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
     }
   }
-  
   .topnav {
     overflow: hidden;
     background-color: #2D4263;
@@ -64,19 +63,29 @@
     }
   }
   
-
   table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    background-color: #A13333;
+    background-color: #ccba93;
   }
   
-  td, th {
+  td {
     border: 2px solid black;
     text-align: center;
     padding: 8px;
+    color: black;
   }
+  
+  th {
+    background-color: #2D4263;
+    color: white;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #ECDBBA;}
+  
   
   .banner {
     width: 1850px;
