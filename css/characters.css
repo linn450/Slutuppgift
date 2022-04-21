@@ -4,12 +4,6 @@ body {
     font-family:'Cinzel', serif; 
   }
   
-  h1 {
-    font-family: 'Cinzel', serif;
-    color: white; 
-    size: 150px;
-    text-align: center;
-   }
 
    @media screen and (max-width: 1850px) {
     .banner{
