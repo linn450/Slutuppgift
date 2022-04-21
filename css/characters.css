@@ -103,11 +103,12 @@ body {
     
   }
 
-  @media screen and (max-width: 600px) {
-    .column, .content, .row {
+  @media screen and (max-width: 500px) {
+    .column {
      float: none;
      width: auto;
-     height: auto;    }
+     height: auto;
+        }
   }
 
 
