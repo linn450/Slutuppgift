@@ -1,5 +1,5 @@
 body {
-    background-color: #2B2B2B;
+    background-color: #191919;
     color: white;
     font-family:'Cinzel', serif; ;
   }
@@ -10,16 +10,20 @@ body {
    size: 150px;
    text-align: center;
   }
-  
+  @media screen and (max-width: 1850px) {
+    .banner{
+     display: none;
+    }
+  }
   .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: #2D4263;
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,14 +32,10 @@ body {
   
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #2196F3;
+    background-color: #2D4263;
     color: white;
   }
+  
   
   .topnav input[type=text] {
     float: right;
@@ -60,3 +60,23 @@ body {
     }
   }
   
+  .banner {
+    width: 1850px;
+    height: 350px;        
+    background: url("../bilder/banner.jpg") no-repeat;
+    background-size: cover;
+} 
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #A13333;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px;
+}

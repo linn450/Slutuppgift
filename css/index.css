@@ -1,25 +1,19 @@
 body {
-    background-color: #2B2B2B;
+    background-color: #191919;
     color: white;
     font-family:'Cinzel', serif; ;
   }
   
-  h1 {
-   font-family: 'Cinzel', serif;
-   color: white; 
-   size: 150px;
-   text-align: center;
-  }
   
   .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: #2D4263;
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,14 +22,10 @@ body {
   
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: black;
   }
   
-  .topnav a.active {
-    background-color: #2196F3;
-    color: white;
-  }
   
   .topnav input[type=text] {
     float: right;
@@ -68,7 +58,7 @@ body {
 
 .content {
   position: absolute;
-  bottom: -150px;
+  bottom: -125px;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   max-width: 100%;
@@ -81,10 +71,11 @@ body {
   font-size: 18px;
   padding: 10px;
   border: none;
-  background: white;
-  color:black;
+  background: black;
+  color:white;
   cursor: pointer;
   opacity: 50%;
+  position: sticky;
 }
 
 #myBtn:hover {
@@ -94,7 +85,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .content {
-  display: none; 
+display: hidden; 
   }
  
 }
